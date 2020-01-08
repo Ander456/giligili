@@ -5,7 +5,7 @@ import (
 	"singo/serializer"
 )
 
-// DeleteVideoService 创建视频投稿服务
+// DeleteVideoService 删除视频投稿服务
 type DeleteVideoService struct{}
 
 // Delete 创建视频
