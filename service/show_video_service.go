@@ -5,10 +5,10 @@ import (
 	"singo/serializer"
 )
 
-// ShowVideoService 创建视频投稿服务
+// ShowVideoService 查看视频投稿服务
 type ShowVideoService struct{}
 
-// Show 创建视频
+// Show 查看视频
 func (service *ShowVideoService) Show(id string) serializer.Response {
 	var video model.Video
 	err := model.DB.First(&video, id).Error
